@@ -1,0 +1,14 @@
+@import url(//db.onlinewebfonts.com/c/4376652caec8a8cd4024347f48b1330f?family=Helvetica-Light);
+.product-ctn{margin-bottom:50px;}
+.product-ctn *{font:14px Helvetica-Light,Helvetica,PingFangSC-Regular,Verdana,sans-serif;}
+.product-left,.product-right{position:relative;float:left;overflow:hidden;width:50%;}
+.product-left>img{float:right;}
+.product-right>img{float:left;}
+.product-info-box{display:flex;padding:80px 0;height:504px;flex-direction:column;justify-content:space-between;}
+.product-info-box.product-left{align-items:flex-end;}
+.product-info{display:flex;height:100px;min-width:548px;}
+.product-left .product-info{padding-right:48px;}
+.product-right .product-info{padding-left:48px;}
+.product-info-text-box{display:flex;padding-left:48px;flex-direction:column;justify-content:space-between;}
+.product-info-text{font-size:27px;}
+.product-info-text>span{font-size:40px;}
