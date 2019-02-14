@@ -70,12 +70,14 @@ footer += '<div class="ctn footer-div">';
         footer += '</ul>';
 
         footer += '<ul>';
-            footer += '<li>About Us</li>';
+            footer += '<li><a href="ueberuns.html">About Us</a></li>';
             footer += '<li>References</li>';
-            footer += '<li>Blog / News</li>';
+            footer += '<li>News</li>';
+            footer += '<li><a target="_blank" href="http://blog.mues-tec.de">Blog</a></li>';
             footer += '<li>Quality</li>';
             <!--footer += '<li><a href="#">References</a></li>';-->
-            <!--footer += '<li><a href="#">Blog / News</a></li>';-->
+            <!--footer += '<li><a href="#">Blog</a></li>';-->
+            <!--footer += '<li><a href="#">News</a></li>';-->
             <!--footer += '<li><a href="#">Quality</a></li>';-->
         footer += '</ul>';
 
@@ -86,7 +88,7 @@ footer += '<div class="ctn footer-div">';
         footer += '</ul>';
 
         footer += '<ul>';
-            footer += '<li>Download</li>';
+            footer += '<li><a href="download.html">Download</li>';
             footer += '<li>Quick Flyer</li>';
             footer += '<li>Catalog</li>';
             footer += '<li>Data Sheets</li>';
@@ -104,7 +106,7 @@ footer += '<div class="ctn footer-div">';
              footer += '<a href="datenschutz.html">Privacy Policy</a></li>';
          footer += '</div>';
 
-         footer += '<p>Presented By Viktoria Thur</p>';
+         footer += '<p>Presented By Mues-Tec</p>';
      footer += '</div>';
  footer += '</div>';
 

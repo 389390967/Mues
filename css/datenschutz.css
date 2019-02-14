@@ -26,3 +26,8 @@
 	font-size: 17px;
 	font-weight: lighter;
 }
+
+@media screen and (max-width: 980px) {
+	.text-box{padding:70px 20px 190px;}
+	.text{line-height:44px;}
+}
