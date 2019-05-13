@@ -35,7 +35,6 @@ try {
 
 function pageCookie(pageName) {
     var page = getCookie(pageName);
-    console.log(page)
     if (page) {
         $('.cookie-bg').css('display', 'none')
     } else {

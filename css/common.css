@@ -7,6 +7,8 @@ a:hover{text-decoration:none;}
 img{border:0;}
 body{padding-top:80px;color:#333;}
 body,html{height:100%;}
+
+/* Ethan */
 .container{margin:0 auto;width:100%;max-width:2048px;}
 .ctn{margin:0 auto;width:1200px;}
 .ctn-big{margin:0 auto;width:1300px;}
@@ -14,7 +16,9 @@ body,html{height:100%;}
 .float-left{float:left;}
 .float-right{float:right;}
 .flex{display:flex;}
+.none{display:none;}
 .text-center{text-align:center;}
+/* Ethan end */
 
 /* header */
 .header{position:fixed;top:0;left:0;z-index:2;background:#343434;}
@@ -80,3 +84,15 @@ body,html{height:100%;}
 @keyframes fadeInDownBig{0%{opacity:0;transform:translateY(-2000px);}
 100%{opacity:1;transform:translateY(0);}
 }
+
+.loader{width:60px;height:60px;background-color:#67CF22;-webkit-animation:rotateplane 1.2s infinite ease-in-out;animation:rotateplane 1.2s infinite ease-in-out;}
+
+@-webkit-keyframes rotateplane{0%{-webkit-transform:perspective(120px);}
+50%{-webkit-transform:perspective(120px) rotateY(180deg);}
+100%{-webkit-transform:perspective(120px) rotateY(180deg) rotateX(180deg);}
+}
+@keyframes rotateplane{0%{-webkit-transform:perspective(120px) rotateX(0) rotateY(0);transform:perspective(120px) rotateX(0) rotateY(0);}
+50%{-webkit-transform:perspective(120px) rotateX(-180.1deg) rotateY(0);transform:perspective(120px) rotateX(-180.1deg) rotateY(0);}
+100%{-webkit-transform:perspective(120px) rotateX(-180deg) rotateY(-179.9deg);transform:perspective(120px) rotateX(-180deg) rotateY(-179.9deg);}
+}
+
