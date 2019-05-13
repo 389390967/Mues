@@ -60,9 +60,9 @@ footer += '<div class="ctn footer-div">';
 
         footer += '<ul>';
             footer += '<li>Frame TV</li>';
-            footer += '<li>R-3200</li>';
-            footer += '<li>R-4300</li>';
-            footer += '<li>R-5500</li>';
+            footer += '<li>RT-3200</li>';
+            footer += '<li>RT-4300</li>';
+            footer += '<li>RT-5500</li>';
             <!--footer += '<li><a href="#">Frame TV</a></li>';-->
             <!--footer += '<li><a href="#">R-3200</a></li>';-->
             <!--footer += '<li><a href="#">R-4300</a></li>';-->
@@ -82,9 +82,8 @@ footer += '<div class="ctn footer-div">';
         footer += '</ul>';
 
         footer += '<ul>';
-            footer += '<li>Dealer</li>';
             footer += '<li>Reseller</li>';
-            <!--footer += '<li><a href="#">Reseller</a></li>';-->
+            footer += '<li><a target="_blank" href="http://www.mues-tec.de/reseller.html">Partner</a></li>'
         footer += '</ul>';
 
         footer += '<ul>';

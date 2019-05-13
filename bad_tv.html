@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mues-Tec</title>
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <script src="js/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container header" id="header">
+        <script src="js/header.js"></script>
+    </div>
+
+    <!-- Swiper -->
+    <div class="container swiper-container" id="swiper1" style="margin-bottom:50px;height:1152px;">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div style="background-image:url(img/bad_tv/mues-tec.badtv_bathroomtv_b_1.jpg);"></div>
+            </div>
+
+            <div class="swiper-slide">
+                <div style="background-image:url(img/bad_tv/mues-tec.badtv_bathroomtv_b_2.jpg);"></div>
+            </div>
+
+            <div class="swiper-slide">
+                <div style="background-image:url(img/bad_tv/mues-tec.badtv_bathroomtv_b_3.jpg);"></div>
+            </div>
+
+            <div class="swiper-slide">
+                <div style="background-image:url(img/bad_tv/mues-tec.badtv_bathroomtv_b_4.jpg);"></div>
+            </div>
+
+            <div class="swiper-slide">
+                <div style="background-image:url(img/bad_tv/mues-tec.badtv_bathroomtv_b_5.jpg);"></div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination" id="swiper-pagination-1"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next" id="swiper-button-next-1"></div>
+        <div class="swiper-button-prev" id="swiper-button-prev-1"></div>
+    </div>
+
+    <!-- Swiper -->
+    <div class="container swiper-container" id="swiper2" style="height:900px;">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div style="background-image:url(img/bad_tv/mues-tec.badtv_bathroomtv_s.jpg);"></div>
+            </div>
+
+            <div class="swiper-slide">
+                <div style="background-image:url(img/bad_tv/mues-tec.badtv_bathroomtv_eg.jpg);"></div>
+            </div>
+
+            <div class="swiper-slide">
+                <div style="background-image:url(img/bad_tv/mues-tec.badtv_bathroomtv_ep.jpg);"></div>
+            </div>
+
+            <div class="swiper-slide">
+                <div style="background-image:url(img/bad_tv/mues-tec.badtv_bathroomtv_da.jpg);"></div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination" id="swiper-pagination-2"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next" id="swiper-button-next-2"></div>
+        <div class="swiper-button-prev" id="swiper-button-prev-2"></div>
+    </div>
+
+    <div class="container footer" id="footer">
+        <script src="js/footer.js"></script>
+    </div>
+
+    <div class="cookie-bg" id="cookie-bg"></div>
+
+    <script src="js/swiper.min.js"></script>
+    <script src="js/common.js"></script>
+    <script>
+        var swiper = new Swiper('#swiper1', {
+            loop: true,
+            pagination: {
+                el: '#swiper-pagination-1',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '#swiper-button-next-1',
+                prevEl: '#swiper-button-prev-1',
+            }
+        });
+
+        var swiper = new Swiper('#swiper2', {
+            loop: true,
+            pagination: {
+                el: '#swiper-pagination-2',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '#swiper-button-next-2',
+                prevEl: '#swiper-button-prev-2',
+            }
+        });
+
+        pageCookie('Mues'); 
+    </script>
+</body>
+
+</html>
