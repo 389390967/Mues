@@ -692,14 +692,14 @@
             </div>
         </div>
 
-        <div class="toggle-product-circlr none">
+        <div class="toggle-product-circlr">
             <div class="active"><img src="img/product_ico/dot_sg.png" alt="">SG</div>
 
-            <div><img src="img/product_ico/dot_ep.png" alt="">EP</div>
+            <div class="none" id="epIco"><img src="img/product_ico/dot_ep.png" alt="">EP</div>
 
-            <div><img src="img/product_ico/dot_eg.png" alt="">EG</div>
+            <div class="none" id="egIco"><img src="img/product_ico/dot_eg.png" alt="">EG</div>
 
-            <div><img src="img/product_ico/dot_da.png" alt="">DA</div>
+            <div class="none" id="daIco"><img src="img/product_ico/dot_da.png" alt="">DA</div>
         </div>
     </div>
 
@@ -888,6 +888,7 @@
                                 playSpeed: 500,
                                 loader: 'circlr-loader6',
                                 ready: function () {
+                                    $('#epIco').removeClass('none');
                                     eg();
                                 }
                             });
@@ -915,6 +916,7 @@
                                 playSpeed: 500,
                                 loader: 'circlr-loader9',
                                 ready: function () {
+                                    $('#egIco').removeClass('none');
                                     da();
                                 }
                             });
@@ -941,7 +943,7 @@
                                 playSpeed: 500,
                                 loader: 'circlr-loader12',
                                 ready: function () {
-                                    $('.toggle-product-circlr').removeClass('none');
+                                    $('#daIco').removeClass('none');
                                 }
                             });
                         }
