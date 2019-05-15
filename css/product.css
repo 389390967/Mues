@@ -15,6 +15,7 @@
 .product-info-text>span{font-size:50px;}
 
 .product-circlr{width:1290px;}
+.product-circlr-all{overflow:hidden;width:1290px;height:389px;}
 .product-circlr-box{overflow:hidden;padding-top:30px;}
 .circlr{float:left;width:430px;cursor:move;}
 .circlr-title{padding-bottom:15px;text-align:center;font-size:20px;}
