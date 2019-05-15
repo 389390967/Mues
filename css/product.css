@@ -45,11 +45,10 @@
 
 @media screen and (max-width: 980px) {
     .product-ctn{box-shadow:0 1px 6px 1px #ccc;}
-    .product-circlr-box.none{display:block;}
     .product-circlr{padding:32px 0;width:100%;}
+    .product-circlr-all{width:100%;height:1527px;}
     .circlr{float:none;margin:0 auto 24px;width:600px;}
     .circlr-img{height:446px;}
-    .toggle-product-circlr{display:none;}
     .product-features{padding-top:32px;width:100%;}
     .product-table{width:100%;}
     .product-left,.product-right{width:100%;}
