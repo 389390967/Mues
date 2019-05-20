@@ -10,7 +10,7 @@
 .product-info{display:flex;height:100px;min-width:548px;}
 .product-left .product-info{padding-right:48px;}
 .product-right .product-info{padding-left:48px;}
-.product-info-text-box{display:flex;padding-left:48px;width:500px;flex-direction:column;justify-content:space-between;}
+.product-info-text-box{display:flex;padding-left:48px;width:550px;flex-direction:column;justify-content:space-between;}
 .product-info-text{font-size:30px;}
 .product-info-text>span{font-size:50px;}
 
