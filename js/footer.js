@@ -3,7 +3,7 @@ var footer = '';
 footer += '<div class="ctn footer-div">';
     footer += '<div class="footer-menu">';
         footer += '<ul>';
-            footer += '<li>Bad TV</li>';
+            footer += '<li><a href="bad_tv.html">Bad TV</li>';
             footer += '<li>SG Series</li>';
             footer += '<li>EG Series</li>';
             footer += '<li>EP Series</li>';
