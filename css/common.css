@@ -65,8 +65,8 @@ body,html{height:100%;}
 /* footer end */
 
 @media screen and (max-width: 980px) {
-	.swiper-container2{height:auto;}
-	.swiper-container2 .swiper-slide-bg{height:430px;background-size:980px;}
+	.swiper-container{height:auto;}
+	.swiper-container .swiper-slide-bg{height:500px;}
 	.swiper-slide-link{display:none;}
 	.ctn{width:980px;}
 	.ctn-big{width:980px;}

@@ -8,10 +8,10 @@
 .product-info{display:flex;margin:0 auto;width:1100px;}
 .product-info>p{width:50%;font-size:20px;line-height:36px;font-family:Helvetica,PingFangSC-Regular,Verdana,sans-serif;}
 .product-info>p:nth-child(2){padding-left:50px;}
-.product-info-more{display:block;margin:0 auto;padding-top:40px;width:100px;text-align:center;font-size:16px;}
+.product-info-more{display:block;margin:0 auto;padding-top:40px;text-align:center;font-size:16px;}
 .product-img{display:block;width:100%;}
 @media screen and (max-width: 980px) {
-	.product-text>p{text-align:left;line-height:56px;}
+	.product-text>p{text-align:left;}
 	.product-text-box{padding:0 20px 30px;width:980px;}
 	.product-text-ico{padding:40px 20px 30px;width:980px;}
 	.product-info{padding:0 20px;width:980px;}
