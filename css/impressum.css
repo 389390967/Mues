@@ -1,15 +1,16 @@
 .impressum-banner{padding:80px 0;}
 .impressum-banner>img{display:block;width:100%;}
-.impressum-info>p{padding-bottom:40px;line-height:34px;font-size:17px;}
+.impressum-info>p.p{padding-bottom:40px;line-height:34px;font-size:18px;}
 .impressum-info>p.impressum-big-title{font-weight:700;font-size:36px;}
 .impressum-info>p.impressum-title{padding-bottom:20px;font-weight:700;font-size:24px;}
 .impressum-info>p.impressum-small-title{font-weight:700;font-size:18px;}
+.impressum-info>p>a.mail{font-size:18px}
 .impressum-contact{padding-bottom:75px;}
 .impressum-contact>li{display:flex;margin-bottom:25px;height:50px;align-items:center;}
 .impressum-contact>li>img{margin-right:25px;}
 .impressum-contact>li>span,.impressum-contact>li>span>a{font-size:17px;}
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 991px) {
 	.impressum-info{padding:0 20px;}
 	.impressum-info>p{line-height:56px;}
 }
