@@ -1,5 +1,5 @@
-var url = location.href.replace('/Mues/English/', '/Mues/');
-url = url.replace('/mues-tec.de/English/', '/mues-tec.de/');
+var url = location.href.replace('/Mues/en/', '/Mues/');
+url = url.replace('/mues-tec.com/', '/mues-tec.de/');
 
 var header = '';
 header += '<div class="ctn nav-div">';
