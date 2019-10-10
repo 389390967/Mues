@@ -15,8 +15,8 @@ header += '<li class="nav-li"><a class="nav-li-a" href="ihregaeste.html">Your Gu
 header += '<li class="nav-li"><a class="nav-li-a" href="ihrbuero.html">Your Office</a></li>';
 header += '<li class="nav-li"><a class="nav-li-a" href="kontakt.html">Contact</a></li>';
 header += '<li class="nav-li"><a class="nav-li-a nav-li-aImg" href="https://www.mues-tec.de/shop/en/" target="_blank"><img class="nav-li-a-img" src="img/ico/shop.png"></a></li>';
-header += '<li class="nav-li"><a class="nav-li-a nav-li-aImg" href="' + urlDe + '"><img class="nav-li-a-img" src="img/ico/lang-de.png"></a></li>';
-header += '<li class="nav-li"><a class="nav-li-a nav-li-aImg" href="' + urlCh + '"><img class="nav-li-a-img" src="img/ico/lang-ch.png"></a></li>';
+header += '<li class="nav-li"><a class="nav-li-a nav-li-aImg" href="https://mues-tec.de/"><img class="nav-li-a-img" src="img/ico/lang-de.png"></a></li>';
+header += '<li class="nav-li"><a class="nav-li-a nav-li-aImg" href="https://mues-tec.ch/"><img class="nav-li-a-img" src="img/ico/lang-ch.png"></a></li>';
 header += '</ul>';
 header += '</div>';
 

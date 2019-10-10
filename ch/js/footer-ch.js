@@ -35,9 +35,9 @@ footer += '</ul>';
 footer += '<ul>';
 footer += '<li><a href="smart_spiegel.html">Smart Spiegel</li>';
 footer += '<li>SM-2151</li>';
-footer += '<li>SM-2360</li>';
+footer += '<li>SM-2361</li>';
 footer += '<li>SM-2101</li>';
-footer += '<li>SM-4300</li>';
+footer += '<li>SM-4301</li>';
 footer += '</ul>';
 
 footer += '<ul>';
