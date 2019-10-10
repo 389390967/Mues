@@ -1,7 +1,11 @@
-var urlEn = location.href.replace('/Mues/', '/Mues/en/'),
-    urlCh = location.href.replace('/Mues/', '/Mues/ch/');
-urlEn = urlEn.replace('/mues-tec.de/', '/mues-tec.com/');
-urlCh = urlCh.replace('/mues-tec.de/', '/mues-tec.ch/');
+// var urlEn = location.href.replace('/Mues/', '/Mues/en/'),
+//     urlCh = location.href.replace('/Mues/', '/Mues/ch/');
+// urlEn = urlEn.replace('/mues-tec.de/', '/mues-tec.com/');
+// urlCh = urlCh.replace('/mues-tec.de/', '/mues-tec.ch/');
+
+var url = location.href,
+    urlEn = url.replace('/mues-tec.de/', '/mues-tec.com/'),
+    urlCh = url.replace('/mues-tec.de/', '/mues-tec.ch/');
 
 var header = '';
 header += '<div class="ctn nav-div">';
