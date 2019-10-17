@@ -14,5 +14,7 @@
 	.product-text>p{text-align:left;}
 	.product-text-box{padding:0 20px 30px;width:980px;}
 	.product-text-ico{padding:40px 20px 30px;width:980px;}
-	.product-info{padding:0 20px;width:980px;}
+	.product-info{padding:0 20px;width:980px;flex-wrap: wrap;}
+	.product-info>p{width:100%;}
+	.product-info>p:nth-child(2){padding-left:0;}
 }

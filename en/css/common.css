@@ -16,7 +16,12 @@ body,html{height:100%;}
 .float-left{float:left;}
 .float-right{float:right;}
 .flex{display:flex;}
+.block{display:block!important}
 .none{display:none;}
+
+.pdg-t90{padding-top:90px!important}
+.pdg-b90{padding-bottom:90px!important}
+
 .text-center{text-align:center;}
 /* Ethan end */
 
